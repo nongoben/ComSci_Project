@@ -1,6 +1,37 @@
-﻿.frm_login{
+﻿
+body 
 
-    height : 500px;
+{
+    background-image: url('../img/maxresdefault.jpg');
+}
+
+.modal-content 
+
+{
+    margin-top:150px;
+    background:rgba(79,79,79,0.4);
+}
+
+
+.frm_login{   
+    height : 350px;
     width : 500px;
+     color : white;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
 
+.infrm_login{
+   
+ 
+   text-align:center;  
+   
+}
+
+.btn btn-primary {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+   
 }

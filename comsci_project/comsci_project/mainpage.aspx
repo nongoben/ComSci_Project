@@ -10,24 +10,31 @@
       <link href="css/bootstrap.min.css" rel="stylesheet" />
       <link href="css/main_cs.css" rel="stylesheet" />
   </head>
-  <body>
+  <body >
       <form runat="server">
     <!-- Small modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm "  >Login</button>
 
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class=" modal-dialog modal-sm ">
-    <div class=" modal-content ">
-        
+   
+       <div class=" modal-content ">
+       
         <div class =" frm_login ">
-           
-            <asp:Label ID="Label1"  Text="Label"></asp:Label>
-
-            </div>
+                  <div class ="infrm_login">
+                     
+            <h4>Sign In</h4>
+            <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" Width="200" placeholder="Username"></asp:TextBox>
+            <asp:Button ID="btn_login" runat="server" Text="Login" CssClass="btn btn-primary" />
+                 </div>
+        </div>
+     
     </div>
+    
+  </div>
  
 </div>
-    </div>
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     </form>
