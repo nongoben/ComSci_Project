@@ -8,30 +8,20 @@ body
 .modal-content 
 
 {
+    width : 300px;
+    height:auto;
     margin-top:150px;
     background:rgba(79,79,79,0.4);
+    margin-left:10px;
+    border-radius: 5px;
+    text-align:center;
+    font-family:"Arial Black", Gadget, sans-serif;
 }
 
+#btn_login{
+     
+   background-color:grey;
 
-.frm_login{   
-    height : 350px;
-    width : 500px;
-     color : white;
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-       }
+   border:0px;
 
-.infrm_login{
-   
- 
-   text-align:center;  
-   
-}
-
-.btn btn-primary {
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-   
 }

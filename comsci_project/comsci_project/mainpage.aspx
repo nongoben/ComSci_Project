@@ -16,24 +16,37 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm "  >Login</button>
 
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-  <div class=" modal-dialog modal-sm ">
-   
+  
+    <div class=" modal-dialog modal-sm ">
+  
        <div class=" modal-content ">
-       
-        <div class =" frm_login ">
-                  <div class ="infrm_login">
-                     
-            <h4>Sign In</h4>
-            <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" Width="200" placeholder="Username"></asp:TextBox>
-            <asp:Button ID="btn_login" runat="server" Text="Login" CssClass="btn btn-primary" />
-                 </div>
+    
+                <div class =" frm_login ">
+                    <br>
+                      <h4>Sign In</h4>
+                    <br>
+                 <center> <div class ="frm_username">
+            
+                      <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" Width="250" placeholder="Username"></asp:TextBox>
+                  
+                  </div>
+                    <br>
+                    <div class ="frm_password">
+            
+                    <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" Width="250" placeholder="Password"></asp:TextBox>
+          
+                    </div> </center>  
+                    <br> 
+                    
+                        <asp:Button ID="btn_login" runat="server" Text="Log In" CssClass="btn btn-primary" Width="250px"  /></asp:TextBox>   
+                </div>
         </div>
      
     </div>
     
-  </div>
- 
 </div>
+ 
+
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
