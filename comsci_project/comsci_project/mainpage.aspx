@@ -11,48 +11,49 @@
       <link href="css/main_cs.css" rel="stylesheet" />
   </head>
   <body >
-      <form runat="server">
+      <form runat="server" >
     <!-- Small modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm "  >Login</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm ">Login</button>
 
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   
     <div class=" modal-dialog modal-sm ">
   
        <div class=" modal-content ">     
+           
            <div id="loginform">
               
-               <div id="facebook"><i class="fa fa-facebook"></i>
-           
-                   <div id="connect">Connect with Facebook</div></div>
-
+               <div id="facebook">
+               
+               </div>
         
                <div id="mainlogin">
                  
-   
                     <div id="or">or</div>
    
-                    <h1>Log in with awesome new thing</h1>
-   
-                    
-        <input type="text" placeholder="username or email" value=""Class="form-control" >
+                    <h1>Log in with awesome new thing</h1>                         
+                  
+                    <div class="login_btn">
+                  
+                        <a href="index.aspx"><br>Login</a>
+                       
+                   </div>
+                   <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Username"></asp:TextBox>
                    <br>
-        <input type="password" placeholder="password" value="" Class="form-control">
-                       <button type="submit" id ="btn_go" ><a href="index.aspx">Log In</a><i class="fa fa-arrow-right"></i></button>         
+                   <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" placeholder="Password"></asp:TextBox>                       
                    <br>
-         <div id="note"><a href="#">Forgot your password?</a></div>
-                </div>
-           </div>
-       
+         
+                   <div id="note"><a href="#">Forgot your password?</a></div>
+                
+               </div>
+           
+           </div>    
        
        </div>
      
     </div>
     
 </div>
- 
-
-    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     </form>

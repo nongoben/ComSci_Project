@@ -91,9 +91,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\main_cs.css" />
-    <Content Include="img\arrow.png" />
+    <Content Include="img\button-facebook.svg" />
+    <Content Include="img\face.JPG" />
+    <Content Include="img\facebook+logo.png" />
     <Content Include="img\maxresdefault.jpg" />
+    <Content Include="js\codepen.js" />
+    <Content Include="css\main_cs.css" />
     <Content Include="index.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config" />
@@ -104,6 +107,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\nongoben %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\nongoben.pubxml" />
+    <None Include="Properties\PublishProfiles\oben1 %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\oben1.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -123,7 +130,9 @@
     <Content Include="js\modal.js" />
     <Content Include="js\npm.js" />
     <Content Include="mainpage.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="index.aspx.cs">
@@ -145,9 +154,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\PublishProfiles\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
