@@ -19,28 +19,33 @@
   
     <div class=" modal-dialog modal-sm ">
   
-       <div class=" modal-content ">
-    
-                <div class =" frm_login ">
-                    <br>
-                      <h4>Sign In</h4>
-                    <br>
-                 <center> <div class ="frm_username">
-            
-                      <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" Width="250" placeholder="Username"></asp:TextBox>
-                  
-                  </div>
-                    <br>
-                    <div class ="frm_password">
-            
-                    <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" Width="250" placeholder="Password"></asp:TextBox>
-          
-                    </div> </center>  
-                    <br> 
+       <div class=" modal-content ">     
+           <div id="loginform">
+              
+               <div id="facebook"><i class="fa fa-facebook"></i>
+           
+                   <div id="connect">Connect with Facebook</div></div>
+
+        
+               <div id="mainlogin">
+                 
+   
+                    <div id="or">or</div>
+   
+                    <h1>Log in with awesome new thing</h1>
+   
                     
-                        <asp:Button ID="btn_login" runat="server" Text="Log In" CssClass="btn btn-primary" Width="250px"  /></asp:TextBox>   
+        <input type="text" placeholder="username or email" value=""Class="form-control" >
+                   <br>
+        <input type="password" placeholder="password" value="" Class="form-control">
+                       <button type="submit" id ="btn_go" ><a href="index.aspx">Log In</a><i class="fa fa-arrow-right"></i></button>         
+                   <br>
+         <div id="note"><a href="#">Forgot your password?</a></div>
                 </div>
-        </div>
+           </div>
+       
+       
+       </div>
      
     </div>
     

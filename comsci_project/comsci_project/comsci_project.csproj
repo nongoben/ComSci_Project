@@ -92,7 +92,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main_cs.css" />
+    <Content Include="img\arrow.png" />
     <Content Include="img\maxresdefault.jpg" />
+    <Content Include="index.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
@@ -124,6 +126,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="mainpage.aspx.cs">
       <DependentUpon>mainpage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
