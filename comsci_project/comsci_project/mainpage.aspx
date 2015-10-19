@@ -13,14 +13,20 @@
   <body >
       <form runat="server" >
     <!-- Small modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm ">Login</button>
+         
+ <header>
+          <div class ="btn_1"> 
+ <button type="button" id="btn_login" data-toggle="modal" data-target=".bs-example-modal-sm ">Login</button>
+ <asp:Button ID="btn_create" Text="Sign up" runat="server" CssClass="btn btn-primary"/>                  
+</div>
 
+ </header>
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   
     <div class=" modal-dialog modal-sm ">
   
        <div class=" modal-content ">     
-           
+
            <div id="loginform">
               
                <div id="facebook">
